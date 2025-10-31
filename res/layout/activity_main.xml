@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        app:tint="#47C5FF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:text="Music Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="362dp"
+        android:layout_height="61dp"
+        android:text="PLAY"
+        android:backgroundTint="#000DFF"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/inter"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="362dp"
+        android:layout_height="61dp"
+        android:text="EXIT"
+        android:backgroundTint="#CB0E00"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/inter"/>
+</LinearLayout>

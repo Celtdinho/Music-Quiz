@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Judul lagu ini?",
+    "a": "Shape of You",
+    "b": "Perfect",
+    "c": "Photograph",
+    "d": "Castle on the Hill",
+    "answer": 1,
+    "audio": "shape_of_you"
+  },
+  {
+    "id": 2,
+    "question": "Penyanyi lagu ini?",
+    "a": "The Weeknd",
+    "b": "Ed Sheeran",
+    "c": "Justin Bieber",
+    "d": "Shawn Mendes",
+    "answer": 0,
+    "audio": "blinding_lights"
+  }
+]

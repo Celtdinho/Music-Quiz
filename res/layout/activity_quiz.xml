@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/logo"
+                app:tint="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tvQuestionCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 / 5"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="8dp"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/setting"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+
+        <!-- Question Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_rounded"
+            android:padding="16dp"
+            android:layout_marginTop="20dp">
+
+            <!-- Score (added) -->
+            <TextView
+                android:id="@+id/txtScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skor: 0"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Question -->
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soal tampil di sini"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Song Image -->
+        <ImageView
+            android:id="@+id/songImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_card_rounded"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Play + Timer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnPlayAudio"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logo"
+                android:background="@drawable/btn_main"
+                app:tint="@android:color/white"/>
+
+            <ProgressBar
+                android:id="@+id/audioProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="12dp"
+                android:progress="0"
+                android:max="100"/>
+        </LinearLayout>
+
+        <!-- RadioGroup -->
+        <RadioGroup
+            android:id="@+id/radioGroupOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="18dp">
+
+            <RadioButton android:id="@+id/optionA" style="@style/QuizOption" android:text="Opsi A"/>
+            <RadioButton android:id="@+id/optionB" style="@style/QuizOption" android:text="Opsi B"/>
+            <RadioButton android:id="@+id/optionC" style="@style/QuizOption" android:text="Opsi C"/>
+            <RadioButton android:id="@+id/optionD" style="@style/QuizOption" android:text="Opsi D"/>
+        </RadioGroup>
+
+        <!-- Next -->
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="NEXT"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_main"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<resources>
+    <color name="primaryBlue">#1126E1</color>
+    <color name="secondaryBlue">#47C5FF</color>
+
+    <color name="correctGreen">#00D11F</color>
+    <color name="wrongRed">#E60000</color>
+
+    <color name="textWhite">#FFFFFF</color>
+    <color name="shadowColor">#1A000000</color>
+
+    <color name="textBlack">#000000</color>
+    <color name="black">#000000</color>
+
+    <color name="blue_start">#8EC5FC</color>
+    <color name="blue_end">#E0C3FC</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- buat result page -->
+    <color name="option_correct">#4CAF50</color>
+    <color name="option_wrong">#E53935</color>
+
+</resources>

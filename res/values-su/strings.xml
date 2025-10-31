@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music Quiz</string>
+    <string name="welcome">Wilujeng Sumping 👋</string>
+    <string name="loading">Saat ieu dimuat...</string>
+    <string name="start_quiz">Mimitian Kuis</string>
+    <string name="settings">Setélan</string>
+    <string name="choose_language">Pilih Basa</string>
+</resources>

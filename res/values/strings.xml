@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Quiz</string>
+    <string name="title_main">Music Quiz</string>
+    <string name="play_button">PLAY</string>
+    <string name="exit_button">EXIT</string>
+
+    <!-- pesan lain (opsional) -->
+    <string name="toast_choose_answer">Pilih jawaban dulu!</string>
+    <string name="toast_correct">Benar!</string>
+    <string name="toast_wrong">Salah!</string>
+
+    <string name="name">Music Quiz</string>
+    <string name="default_greeting">Selamat Datang 👋</string>
+    <string name="greet_sunda">Wilujeng Sumping 👋</string>
+    <string name="greet_jawa">Sugeng Rawuh 👋</string>
+
+</resources>

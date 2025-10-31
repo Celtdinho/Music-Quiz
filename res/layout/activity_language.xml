@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/btnID" android:text="Bahasa Indonesia" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnJV" android:text="Basa Jawa" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnSU" android:text="Basa Sunda" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
